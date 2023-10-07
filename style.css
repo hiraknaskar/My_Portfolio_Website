@@ -1,1 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Pixelify+Sans:wght@600;700&display=swap');
 
+*
+{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header 
+{
+    width : 100%;
+    background-color: rgb(171, 171, 171);
+    display: flex;
+    padding-left: 10% ;
+    padding-right: 10% ;
+    justify-content: space-between;
+    
+}
+
+
+.logo
+{
+
+    width : 10%;
+    height: 70px;
+    /* background-color: rgb(44, 41, 41); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 30px;
+
+
+}
+
+.nav
+{
+
+    width : 30%;
+    height: 70px;
+    /* background-color: rgb(61, 39, 39); */
+}
+
+.nav-links
+{
+    height: 70px;
+    width : 100%;
+    /* background-color: rgb(201, 23, 23); */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.banner
+{   
+    height: 700px;
+    width : 100%;
+    background-color: rgb(171, 171, 171);
+    padding-left: 5% ;
+    padding-right: 5% ;
+    padding-top: 30px ;
+    
+
+    display: flex;
+    align-items: center;
+}
+
+.details
+{
+    width : 60%;
+    padding: 20px;
+    /* background-color: white; */
+    font-family: 'Martian Mono', monospace;display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+
+    
+    
+}
+
+.t1
+{
+    
+    font-size: 60px;
+
+}
+
+.t2
+{
+    
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.desc
+{
+    font-size: 20px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+
+.cta
+{
+    font-family: 'Pixelify Sans', cursive;
+    padding: 16px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    background-color:rgb(219, 161, 14) ;
+    color: white;
+    border: 2px solid rgb(219, 161, 14) ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cta:hover
+{
+    background-color: transparent;
+    color:rgb(219, 161, 14);
+}
+
+.par
+{
+    /* width : 30%;
+    
+    background-color: rgb(61, 39, 39); */
+    /* align-self: flex-end ;
+    border-radius: 30px;  */
+    
+}
+
+.per-img
+{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.ser
+{
+    width : 100%;
+    padding: 30px 5%;
+    /* background-color: brown; */
+}
+
+.s-t
+{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 150%;
+
+}
+
+.s-c
+{
+    width : 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    margin-top: 30px;
+    display: flex;
+    column-gap: 4%;
+
+}
+
+.service
+{
+    width : 22%;
+    /* background-color: rgb(200, 230, 9); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:'Pixelify Sans', cursive;
+    row-gap: 10px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 20px;
+}
+
+
+.icon
+{
+    padding: 50px;
+    font-size: 70px;
+    align-self: center;
+}
+.serv-but
+{
+    padding: 12px 25px;
+    background-color: rgb(219, 161, 14);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.serv-txt
+{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.achivments
+{
+    
+    padding: 30px 10%;
+    background-color: rgb(171, 171, 171);
+
+}
+
+
+.ach
+{
+    width: 22%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pixelify Sans', cursive;
+    align-self: center;
+    row-gap: 10px;
+}
+
+.number
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.tag
+{
+    font-size: 10px;
+}
+
+
+.aaa
+{
+    column-gap: 2.5%;
+}
+
+
+
+.quote
+{
+
+    width: 100%;
+
+    height: 200px;
+    /* padding: 0px 10%; */
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1696672497~exp=1696673097~hmac=7faac62ee21064b43b243d45d8d466407232049259bb9722714b31b0f78805a3');
+
+}
+.overlay
+{
+    width: 100% ;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+
+}
+
+
+.quote-area
+{
+        width: 100% ;
+        padding: 30px 0px;
+        /* background-color: white ; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+}
+
+.imp-e
+{
+    width: 60%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 15px ;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+
+}
+
+::placeholder
+{
+    color: white;
+}
+
+.footer
+{
+    width: 100%;
+    padding: 30px 10% ;
+    background-color: rgb(46, 46, 46);
+    font-family: 'Pixelify Sans', cursive;
+    color: white;
+
+
+}
+
+.s-c
+{
+    /* background-color: aliceblue; */
+}
+
+.footer-child
+{
+    width: 22%;
+    padding: 20px 20px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.footer-list
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.map
+{
+    width: 46%;
+    padding: 0px;
+
+   
+}
+
+
+.abc
+{
+    font-size: 30px;
+}
